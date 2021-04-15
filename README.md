@@ -50,9 +50,9 @@ And the``` GetFormAction ```method also outputs the current form Action Data ```
 
 # Description of methods
 
-|             Method Name             |              Description              |                                           Use                                          |   
-|:-----------------------------------:|:-------------------------------------:|:--------------------------------------------------------------------------------------:|--
-| Action("data1" , "data2" , "data3") | Set Action Data to a Form             | ```var f2 = new Form2(); f2.Action("data1" , "data2" , "data3"); f2.Show(); ``` |   
-| GetFormAction(form instance)        | Get Form Action with Form Instance    |  ``` GetFormAction(new Form2()); ```                                             |   
-| RemoveFormFromActionList            | Remove Form Action with Form instance | RemoveFormFromActionList(new Form2)                                                    |  
-|                                     |                                       |                                                                                        |   
+|             Method Name             |              Description              |                                           Use                                          |   |   |
+|:-----------------------------------:|:-------------------------------------:|:--------------------------------------------------------------------------------------:|---|---|
+| Action("data1" , "data2" , "data3") | Set Action Data to a Form             | ``` var f2 = new Form2(); f2.Action("data1" , "data2" , "data3"); f2.Show(); ``` |   |   |
+| GetFormAction(form instance)        | Get Form Action with Form Instance    |  ``` GetFormAction(new Form2()); ```                                             |   |   |
+| RemoveFormFromActionList            | Remove Form Action with Form instance | RemoveFormFromActionList(new Form2)                                                    |   |   |
+|                                     |                                       |                                                                                        |   |   |
